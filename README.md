@@ -1,2 +1,2 @@
 # maven-quick-start
-Maven practice Sandbox and Dojo
+Maven practice sandbox and dojos
