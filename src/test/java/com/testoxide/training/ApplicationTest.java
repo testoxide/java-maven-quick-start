@@ -13,6 +13,11 @@ public class ApplicationTest {
         app = new Application();
     }
     
+    @Test
+    public void testWordCountString() {
+        int count = app.countWords("this is a test");
+        assertTrue(count == 4);
+    }
     
     @Test
     public void testWordCountEmpty() {
